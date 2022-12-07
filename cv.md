@@ -3,7 +3,7 @@
 * Phone: +7 904 0165176
 * E-mail: polkovnikovd@gmail.com
 * GitHub: DmitryPolkovnikov1
-* Telegram Dmitry Polkovnikov
+* Telegram: Dmitry Polkovnikov
 # About Me
 I am 34 years old, I work in the field of logistics. 
 I have always been interested in the IT field, but 
