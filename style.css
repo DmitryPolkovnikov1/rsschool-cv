@@ -4,6 +4,15 @@
 html {
     scroll-behavior: smooth;
 }
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    white-space: nowrap;
+}
 .nav-link {
     position: relative;
     padding: 0 12px;
@@ -12,6 +21,9 @@ html {
     font-weight: 300;
     line-height: 50px;
     color: #fff;
+}
+.inline {
+    display:inline-block;
 }
 .nav-link:hover {
     transition: .3s;
@@ -36,6 +48,7 @@ body {
 }
 .main {
     margin-bottom: auto;
+    
 }
 .main-container {
     display: flex;
