@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+  scroll-behavior: smooth; 
+  }
+main {
+  margin-bottom: auto; 
+}
+
+body {
+font-family: 'Inika', serif;
+font-family: 'Inter', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+    }
+
+.bodyconteiner {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+  }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+  }
+.displayed {     
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+}
+
+header {
+  width: 100%;
+  height: 5%;
+  background: #EDF2EC;
+  border: 0.5rem solid;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.welcome {
+  display: flex;
+  
+  justify-content:space-around;
+  background: #EDF2EC;
+  border: 0.5rem solid;
+}
+.about {
+  display: flex;
+  
+  justify-content:space-around;
+  background: #FFFFFF;
+  border: 0.5rem solid;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:center
+  width: 100%;
+  background: #EDF2EC;
+  border: 0.5rem solid;
+}
+.servicecontent {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  width: 100%;
+}
+.servicesection {
+  justify-content:center;
+  width: 30%;
+  border: 0.5rem solid;
+}
+
+.prices {
+  display: flex;
+  
+  justify-content:space-around;
+  background: #FFFFFF;
+  border: 0.5rem solid;
+}
+.contacts {
+  display: flex;
+  
+  justify-content:space-around;
+  background: #EDF2EC;
+  border: 0.5rem solid;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: rgb(240, 43, 43);
+}
+footer {
+  width: 100%;
+  height: 5%;
+  background: #FFFFFF;
+  padding: 20px;
+}
+.section {
+  justify-content: space-between;
+  width: 40%;
+  border: 0.5rem solid;
+}
