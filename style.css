@@ -25,35 +25,128 @@ justify-content: space-between;
 height: 100%;
   }
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   min-height: 50px;
   }
 .displayed {     
   margin-left: auto; 
   margin-right: auto; 
-  display: block;
+  
 }
 
 header {
   width: 100%;
   height: 5%;
   background: #EDF2EC;
-  border: 0.5rem solid;
 }
-.nav {
+.navbar {
+  width: 84.72222222222223%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin-left: 100px;
+
+}
+.logo {
+  width: 6.489344262295082%;
+  display: flex;
+  align-items: center;
+  height: 100%;
   
 }
+.nav {
+width: 40%;
+height: 100%;
+display: flex;
+justify-content: flex-end;
+
+}
+.nav-link{
+  font-family: Inika;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 40px;
+  line-height: 50px;
+  color: #010201;
+}
+.nav-linkplants{
+  font-family: Inika;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010201;
+}
+.nav-linkHome{
+  font-family: Inika;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: #E06733;
+}
+
+.inline {
+display:inline-block;
+}
+
 .welcome {
+  width: 100%;
+  height: 100%;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  padding-left: 109px;
+  padding-right: 109px;
   display: flex;
-  
-  justify-content:space-around;
+  justify-content: center;
   background: #EDF2EC;
-  border: 0.5rem solid;
+  
+}
+.welcomesection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.leafs{
+  height: 100%;
+  width: 36.726677577741405%;
+  
+}
+.Welcomesection{
+  height: 83.53808353808354%;
+  width: 44%;
+  
+}
+h1{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+p {
+font-family: Inter;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #636060;
+}
+.colortext {
+  color:#499A18; 
+}
+button {
+  margin-top: 35px;
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+}
+.learn {
+font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+  
 }
 .about {
   display: flex;
@@ -78,6 +171,7 @@ header {
   flex-wrap: wrap;
   justify-content:space-evenly;
   width: 100%;
+  border: 0.5rem solid;
 }
 .servicesection {
   justify-content:center;
@@ -114,7 +208,8 @@ footer {
   padding: 20px;
 }
 .section {
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
   width: 40%;
   border: 0.5rem solid;
 }
