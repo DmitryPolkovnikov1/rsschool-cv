@@ -75,6 +75,7 @@ justify-content: flex-end;
   font-family: Inika;
   font-weight: 400;
   font-size: 16px;
+  padding: 15px 0px 0px 0px;
   color: #010201;
 }
 .nav-linkHome{
@@ -241,36 +242,132 @@ figcaption {
 }
 
 .prices {
+  width: 100%;
+  height: 560px;
   display: flex;
-  
-  justify-content:space-around;
+  justify-content: center;
+  padding:10px 0px 100px 0px;
   background: #FFFFFF;
-  border: 0.5rem solid;
 }
-.contacts {
+.priceswrapper{
+  width: 84.86111111111111%;
   display: flex;
-  
-  justify-content:space-around;
-  background: #EDF2EC;
-  border: 0.5rem solid;
+  flex-flow: column wrap;
+  justify-content: space-between;
 }
+.Prices{
+  width:27.168576104746318%;
+  height: 100%;
+}
+.textcallus{
+  width: 470px;
+  height: 191.01px;
+  margin:0px 0px 0px 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;  
+}
+.leafs1{
+  width: 152px;
+  height: 175px;
+  margin:0px 0px 0px 735px;
+}
+.prices_item{
+  width: 100%;
+  height: 282.01px;
+  background-image: url("assets/prices/Rectangle 5.png");
+  margin:50px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.Prices_items {
+  width: 250px;
+  height: 214.01px;
+}
+.price_item1{
+  width: 250px;
+  height: 50px;
+  margin:25px 0px 0px 0px;
+  background-image: url("assets/prices/Rectangle 7.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.h2prices{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  }
+.gardeners{
+  color:#499A18;
+}
+.textprice{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+.learn2 {
+  font-family: Inika;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+  }
+
+.contacts {
+  width: 100%;
+  padding-top: 53px;
+  display: flex;
+  justify-content:space-evenly;
+  background: #EDF2EC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+}
+.section {
+  width: 31.25%;
+  height: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 150px;
+  padding-left: 20px;
+  padding-right: 35px;
+  background:#D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+}
+.textcontacts{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+}
+.h2contacts{
+  font-family: Inika;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  }
+
 
 .footer-container {
+  width: 84.86111111111111%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  color: rgb(240, 43, 43);
+  color: #000000;
 }
 footer {
   width: 100%;
   height: 5%;
   background: #FFFFFF;
   padding: 20px;
-}
-.section {
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  border: 0.5rem solid;
 }
