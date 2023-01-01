@@ -1,178 +1,104 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plants</title>
-    <link rel="icon" href="assets/favicon1.ico" sizes="32x32">
+    <meta charset="utf-8">
+    <title>cv</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-    <div class="bodyconteiner">
-    <header class="container">
-        <nav class="navbar">
-            <div class="logo">
-                <img class="displayed" src="assets/header/logo_vector.png" alt="logo_vector" style="width:25px;height:20px;" >
-                <span class="nav-linkplants">Plants</span>
-            </div>
-            <div class="nav">
+    <header class="header">
+        <nav class="container nav">
+            <p>
                 <ul>
-                    <li class="inline"><a href="#welcome" class="nav-linkHome">Home</a></li>
-                    <li class="inline"><a href="#about" class="nav-link">About us</a></li>
-                    <li class="inline"><a href="#service" class="nav-link">Service</a></li>
-                    <li class="inline"><a href="#prices" class="nav-link">Price</a></li>
-                    <li class="inline"><a href="#contacts" class="nav-link">Contacts</a></li>                   
+                <li class="inline"><a href="#contacts" class="nav-link">My Contact Info</a></li>
+                <li class="inline"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="inline"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="inline"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="inline"><a href="#education" class="nav-link">Education</a></li>
+                <li class="inline"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
-            </div>          
-        </nav>       
+            </p>
+        </nav>
     </header>
-
-    
-    <main class="container">
-        <section class="welcome" id="welcome">
-            <div class="welcomesection">
-                <div class="leafs">
-                    <img class="displayed" src="assets/welcome/leafs.png" alt="leaf">
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./Avatar.png" alt="Avatar" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Dmitry Polkovnikov</h1>
                 </div>
-                <div class="Welcomesection">
-                    <h1>We grow <span class="colortext">plants</span> and give you oxygen</h1>
-                    <p class="pwelcome">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <form><button><span class="learn">LEARN MORE</span></button></form>
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="aboutsection">
-                <div class="aboutussection">
-                    <h2 class="h2about">We are <span class="profexptext">professional experienced</span> gardeners</h2>
-                    <p class="pabout">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a type
-                    specimen book. It has survived not only five centuries, but also
-                    the leap into electronic typesetting, remaining essentially
-                    unchanged.</p>
-                </div>               
-                <div>
-                    <img class="displayed" src="assets/about/houseplant1.png" alt="houseplant" style="width:100%;height:100%;">
-                </div>
-            </div>
-        </section>
-
-        <section class="service" id="service">
-            <div class="services_content">
-                <h2 class="h2service">Service and our projects</h2>
-                <div class="servicebutton">
-                    <form class="serviceinline "><button><span class="servicebuttontext">Gardens</span></button></form>
-                    <form class="serviceinline "><button><span class="servicebuttontext">Lawn</span></button></form>
-                    <form class="serviceinline "><button><span class="servicebuttontext">Planting</span></button></form>           
-                </div>
-            </div>
-            <div class="services">
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first.png" alt="first">
-                    <p class="figcaption">Garden care</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first1.png" alt="first1">
-                    <p class="figcaption">Planting</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first2.png" alt="first2">
-                    <p class="figcaption">Lawn care</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first3.png" alt="first3">
-                    <p class="figcaption">Planting</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first4.png" alt="first4">
-                    <p class="figcaption">Garden care</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-                <div class="servicesection">
-                    <img class="displayed" src="assets/service/first5.png" alt="first5">
-                    <p class="figcaption">Planting</p>
-                    <p class="pservice">Lorem Ipsum has been the industry</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="prices" id="prices">
-            <div class="priceswrapper">
-                <div class="Prices">
-                    <h2 class="h2prices">Prices</h2>
-                    <div class="prices_item">
-                        <div class="Prices_items">
-                            <div class="price_item1">
-                                <span class="textprice">Basics</span>
-                                <img src="assets/prices/accordion_btn.svg" alt="accordion" style="width: 16px;
-                                height: 16px;">
-                            </div>
-                            <div class="price_item1">
-                                <span class="textprice">Standard</span>
-                                <img src="assets/prices/accordion_btn.svg" alt="accordion" style="width: 16px;
-                                height: 16px;">
-                            </div>
-                            <div class="price_item1">
-                                <span class="textprice">Pro care</span>
-                                <img src="assets/prices/accordion_btn.svg" alt="accordion" style="width: 16px;
-                                height: 16px;">
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="textcallus">
-                    <h3 class="h2prices">Our best <span class="gardeners">gardeners</span> are ready to help you</h3>
-                    <form><button><span class="learn2">Contact us</span></button></form>
-                </div>
-                <div class="leafs1">
-                    <img class="displayed" src="assets/prices/leafs.png" alt="leafs">
-                </div>
-            </div>    
-        </section>
-
-        <section class="contacts" id="contacts">
-            <div>
-                <img class="displayed" src="assets/contacts/contact_woman1.png" alt="contact_woman" style="width: 400px;
-                height: 100%; margin-left: 30px;">
-            </div>
-            <h2 class="h2contacts">Contact us</h2>
-            <div class="section">
-                <span class="textcontacts">City</span>
-                <img src="assets/contacts/accordion_btn.svg" alt="accordion" style="width: 16px;
-                                height: 16px;">               
-            </div>
-        </section>
-    </main>
-
-    <footer class="container">
-        <div class="footer-container">
-            <div class="github">
-                <img src="assets/footer/favicon.svg" alt="favicon" style="margin-right: 20px;">
-                 2022 
-                <a class="github" href="https://github.com/DmitryPolkovnikov1" target="_blank">github</a>
-            </div>
-            <a href="https://rs.school/js-stage0/" target="_blank"><span class="RSstyle">Rolling Scopes School</span></a>       
-            <div>
-                <ul class="">
-                    <li class="inline"><a href="https://www.instagram.com/rsschool_news/" target="_blank"><img src="assets/footer/Vector.svg" alt="Instagram" style="margin-left: 0px;"></a></li>
-                    <li class="inline"><a href="https://www.facebook.com/RollingScopesSchool" target="_blank"><img class="footerimg" src="assets/footer/Vector1.svg" alt="Facebook"></a></li>
-                    <li class="inline"><a href="https://twitter.com/rollingscopes" target="_blank"><img class="footerimg" src="assets/footer/Vector2.svg" alt="Twitter"></a></li>
-                    <li class="inline"><a href="https://ru.pinterest.com/" target="_blank"><img class="footerimg" src="assets/footer/Vector3.svg" alt="Pinterest"></a> </li>                
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">My Contact Info:</h2>
+                <ul>
+                    <li>Phone: <a href="tel:+79040165176">+79040165176</a></li>
+                    <li>E-mail: <a href="mailto:polkovnikovd@gmail.com" title="email">polkovnikovd@gmail.com</a></li>
+                    <li>Github: <a href="https://github.com/DmitryPolkovnikov1" title="github">DmitryPolkovnikov1</a></li>
+                    <li>Telegram: <a href="https://t.me/+79040165176" title="github">@Dmitry Polkovnikov</a></li>
                 </ul>
-            </div>  
+            </section>
+            <section class="section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    I am 34 years old, I work in the field of logistics. I have always been interested in the IT field, but there was no time to get involved in the educational process. My goal is to gain knowledge in front-end development.
+                </p>
+                <h3>My strengths:</h3>
+                <ul>
+                    <li>Open-mindedness</li>
+                    <li>Organization skill</li>
+                    <li>Decision making skill</li>
+                    <li>Team player</li>
+                    <li>Focus on results</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Basic HTML5, CSS3</li>
+                    <li>Basic Python</li>
+                    <li>Basic Git/GitHub</li>
+                    <li>Keep learning..</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre><code>function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+}</code></pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <h4>Courses:</h4>
+                <ul>
+                    <li><a href="https://stepik.org/course/63085/syllabus">Basic Python</a></li>
+                    <li><a href="https://stepik.org/course/100707/syllabus">Basic Python</a></li>
+                    <li><a href="https://code-basics.com/ru/languages/html">Basic HTML</a></li>
+                    <li><a href="https://code-basics.com/ru/languages/css">Basic CSS</a></li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian - native speaker.</li>
+                    <li>English - B2 </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/DmitryPolkovnikov1" class="github nav-link">DmitryPolkovnikov1</a></div>
+            <a href="https://rs.school/js/"><img src="logo.png" alt="Logo" style="width:120px;height:50px;"></a>
         </div>
     </footer>
-</div> 
+
 </body>
 </html>
