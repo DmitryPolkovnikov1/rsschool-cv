@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309d804a-5e8a-48ce-a331-6c8ac5270a12" name="Changes" comment="feat: add full information to index.html , style.css">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,8 @@
       <workItem from="1671263303108" duration="27147000" />
       <workItem from="1671349846681" duration="55000" />
       <workItem from="1672171629925" duration="114000" />
+      <workItem from="1672519987554" duration="18000" />
+      <workItem from="1672520020929" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add full information to index.html , style.css">
       <created>1671347263245</created>
